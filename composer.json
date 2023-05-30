@@ -16,7 +16,7 @@
   "require": {
     "php": ">=5.5.0",
     "lexik/translation-bundle": "~6.0",
-    "sonata-project/admin-bundle": "^3.9"
+    "sonata-project/admin-bundle": "^4.0"
   },
   "autoload": {
     "psr-4": {
