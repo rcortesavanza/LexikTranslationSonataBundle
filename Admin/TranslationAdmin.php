@@ -25,7 +25,7 @@ class TranslationAdmin extends AbstractAdmin
     /**
      * {@inheritdoc}
      */
-    public function configureRoutes(RouteCollection $collection)
+    public function configureRoutes(RouteCollection $collection): void
     {
         $collection->add('list', 'list', [
             '_controller' => 'LexikTranslationBundle:Translation:overview',
