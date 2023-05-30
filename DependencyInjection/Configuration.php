@@ -17,7 +17,7 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder();
+        $treeBuilder = new TreeBuilder('lexik_translation_sonata');
         $rootNode = $treeBuilder->root('lexik_translation_sonata');
 
         $rootNode
